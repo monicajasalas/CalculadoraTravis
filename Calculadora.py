@@ -8,7 +8,7 @@ class Calculadora():
 
     def suma(self, num1, num2):
         try:
-            self.resultado = int(num1) + int(num2)
+            self.resultado = int(num1) +int(num2)
         except ValueError:
             print "Solo numeros enteros"
 

@@ -17,11 +17,11 @@ class CalculadoraTest(unittest.TestCase):
 
 
 	def test_suma_negativos_numero(self):
-		self.calc.suma(-2,2)
+		self.calc.suma(-2, 2)
 		self.assertEquals(self.calc.obtener_resultado(),0)
 
 	def test_suma_letras_numero(self):
-		self.calc.suma('w',3)
+		self.calc.suma('w', 3)
 		self.assertEqual(self.calc.obtener_resultado(),0)
 
 
