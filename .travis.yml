@@ -11,4 +11,4 @@ before_script:
     - flake8 --max-complexity=15 --exclude=*.txt,*.md, *.pyc
 
 script:
-    -python TestCalculadora.py
+    - python TestCalculadora.py
