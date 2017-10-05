@@ -13,10 +13,8 @@ class Calculadora():
             print "Solo numeros enteros"
 
     def resta(self, num1, num2):
-        try:
-            self.resultado = int(num1) - int(num2)
-        except ValueError:
-            print "Solo numeros enteros"
+        self.resultado = int(num1) - int(num2)
+        
 
     def multiplicacion(self, num1, num2):
         try:
